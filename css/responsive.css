@@ -1,0 +1,101 @@
+.show-mob{
+	display: none;
+}
+
+@media (min-width: 320px)and (max-width: 768px){
+
+p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 20% auto 160px;
+    grid-auto-rows: minmax(120px,auto);
+    grid-gap: 1em;
+    margin: auto;
+    min-width: auto;
+    max-width: 1140px;
+    min-height: 120px;
+
+
+.clearfix{
+display: flex;
+width: 80%;
+padding:0px;
+margin:0;
+height: 150px;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.clearfix a{
+display: block;
+width: 80%;
+height: auto;
+text-align: center;
+margin-right:0%;
+margin-left:0%;
+}
+
+.cabecera .menu{
+	width: 80%;
+	justify-content: space-betwen;
+}
+
+.cabecera .menu ul{
+	margin-left: 0;
+}
+
+
+h1{
+margin-left: 0px;
+font-family:'Montserrat', sans-serif;
+font-weight: 300;
+}
+
+.container{
+	padding: 0;
+}
+
+.row{
+	display: block;
+	overflow: visible;
+	height: 80%;
+}
+
+.col-2{
+	display: block;
+	width: 80%;
+	margin-bottom: 10px;
+}
+
+.col-3{
+	display: block;
+	width: 80%;
+	margin-bottom: 10px;
+}
+
+.img-thumb{
+	width:80%;
+	margin: 10px auto;
+	display: inherit;
+}
+
+#formularioontacto {
+	width: 98%;
+}
+
+#ff label {
+	width: 80%;
+}
+
+input, textarea{
+	width:80%;
+}
+
+.sendButton {
+	display: none;
+}
