@@ -51,13 +51,16 @@ margin-left:0%;
 
 
 h1{
+display: grid;
 margin-left: 0px;
 font-family:'Montserrat', sans-serif;
 font-weight: 300;
 }
 
+
 .container{
-	padding: 0;
+	display: grid;
+  width: 98%;
 }
 
 .row{
@@ -68,18 +71,16 @@ font-weight: 300;
 
 .col-2{
 	display: block;
-	width: 80%;
 	margin-bottom: 10px;
 }
 
 .col-3{
 	display: block;
-	width: 80%;
-	margin-bottom: 10px;
+  width: 80%;
 }
 
 .img-thumb{
-	width:80%;
+	width: 80%;
 	margin: 10px auto;
 	display: inherit;
 }
@@ -98,4 +99,8 @@ input, textarea{
 
 .sendButton {
 	display: none;
+}
+
+blockquote{
+	widht: 80%;
 }
