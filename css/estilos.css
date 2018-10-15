@@ -25,9 +25,9 @@ a{
 	-webkit-transition: all .3s;
 	-o-transition: all .3s;
 	transition: all .3s;
-  font-family: 'Lora', serif;
-  font-size: 18px;
-  text-decoration: none;
+        font-family: 'Lora', serif;
+        font-size: 18px;
+        text-decoration: none;
 }
 
 a:hover{
@@ -129,7 +129,7 @@ h2{
 	width: 60%;
 	height: 100%;
 	display: inline-block;
-        text-align: auto;
+        align: auto;
 }
 
 .col-3{/*imagenes pagina de inicio*/
@@ -149,7 +149,7 @@ h2{
 .image-full{
 	height: 95%;
 	background-size: cover!important;
-	background-repeat: none;
+	background-repeat: no-repeat;
 	text-align: center;
 }
 
