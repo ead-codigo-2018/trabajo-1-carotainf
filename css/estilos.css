@@ -158,12 +158,12 @@ h2{
 	display: inline-block;
 }
 
-.wrapper {
+.wrapper{
         margin: 47px auto;
         max-width:580px;
 }
 
-#formulariocontacto {
+#formulariocontacto{
         text-shadow: 0 1px 0 #FFF;
         border-radius: 4px;
         -webkit-border-radius: 4px;
@@ -172,7 +172,7 @@ h2{
         padding: 25px;
 }
 
-#ff label {
+#ff label{
        cursor: pointer;
        margin: 4px 0;
        color: #ed7700;
@@ -193,7 +193,7 @@ input, textarea{
        margin-bottom: 25px;
 }
 
-.sendButton {
+.sendButton{
        cursor: pointer;
        -moz-box-shadow: inset 0px 1px 0px 0px #fce2c1;
        -webkit-box-shadow: inset 0px 1px 0px 0px #fce2c1;
@@ -214,7 +214,7 @@ input, textarea{
        text-shadow: 1px 1px 0px #cc9f52;
 }
 
-.sendButton:hover {
+.sendButton:hover{
        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FEB3F3), color-stop(1, #FEB3F3) );
        background: -moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
