@@ -15,7 +15,7 @@ html{
 	float: left;
 	width: 230px;
 	padding: 10px 0;
-  margin-left: 50px;
+        margin-left: 50px;
 	font-family:'Montserrat', sans-serif;
 	font-weight: 500;
 }
@@ -90,14 +90,14 @@ h2{
 	font-family: 'Barlow', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
-  text-align: center;
-  color: #FB3FE0;
+        text-align: center;
+        color: #FB3FE0;
 }
 /* ESTRUCTURA */
 .container{
 	padding: 0 20px;
-  width: 1170px;
-  margin: 0 auto;
+        width: 1170px;
+        margin: 0 auto;
 }
 
 .row{
@@ -129,7 +129,7 @@ h2{
 	width: 60%;
 	height: 100%;
 	display: inline-block;
-  text-align: auto;
+        text-align: auto;
 }
 
 .col-3{/*imagenes pagina de inicio*/
@@ -159,66 +159,64 @@ h2{
 }
 
 .wrapper {
- margin: 47px auto;
- max-width:580px;
+        margin: 47px auto;
+        max-width:580px;
 }
 
 #formularioontacto {
- text-shadow: 0 1px 0 #FFF;
- border-radius: 4px;
- -webkit-border-radius: 4px;
- -moz-border-radius: 4px;
- background: #F9F9F9;
- padding: 25px;
-
+        text-shadow: 0 1px 0 #FFF;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        background: #F9F9F9;
+        padding: 25px;
 }
 
 #ff label {
- cursor: pointer;
- margin: 4px 0;
- color: #ed7700;
- display: block;
- font-weight: 800;
-
+       cursor: pointer;
+       margin: 4px 0;
+       color: #ed7700;
+       display: block;
+       font-weight: 800;
 }
 
 input, textarea{
- display: block;
- width: 90%;
- border-radius: 4px;
- -webkit-border-radius: 4px;
- -moz-border-radius: 4px;
- background-color: #FEB3F3;
- color: #000;
- border: 1px solid #5f5f5f;
- padding: 10px;
- margin-bottom: 25px;
+       isplay: block;
+       width: 90%;
+       border-radius: 4px;
+       -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+       background-color: #FEB3F3;
+       color: #000;
+       border: 1px solid #5f5f5f;
+       padding: 10px;
+       margin-bottom: 25px;
 }
 
 .sendButton {
- cursor: pointer;
- -moz-box-shadow: inset 0px 1px 0px 0px #fce2c1;
- -webkit-box-shadow: inset 0px 1px 0px 0px #fce2c1;
- box-shadow: inset 0px 1px 0px 0px #fce2c1;
- background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FEB3F3), color-stop(1, #FEB3F3) );
- background: -moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
- filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
- background-color: #FEB3F3;
- -webkit-border-radius: 16px;
- -moz-border-radius: 16px;
- border-radius: 16px;
- border: 1px solid #FEB3F3;
- color: #000000;
- font-family: Montserrat;
- font-size: 14px;
- width: 25%;
- font-weight: bold;
- text-shadow: 1px 1px 0px #cc9f52;
+       cursor: pointer;
+       -moz-box-shadow: inset 0px 1px 0px 0px #fce2c1;
+       -webkit-box-shadow: inset 0px 1px 0px 0px #fce2c1;
+       box-shadow: inset 0px 1px 0px 0px #fce2c1;
+       background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FEB3F3), color-stop(1, #FEB3F3) );
+       background: -moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+       background-color: #FEB3F3;
+       -webkit-border-radius: 16px;
+       -moz-border-radius: 16px;
+       border-radius: 16px;
+       border: 1px solid #FEB3F3;
+       color: #000000;
+       font-family: Montserrat;
+       font-size: 14px;
+       width: 25%;
+       font-weight: bold;
+       text-shadow: 1px 1px 0px #cc9f52;
 }
 
 .sendButton:hover {
- background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FEB3F3), color-stop(1, #FEB3F3) );
- background: -moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
- filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
- background-color: #fb9e25;
+       background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FEB3F3), color-stop(1, #FEB3F3) );
+       background: -moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+       background-color: #fb9e25;
 }
