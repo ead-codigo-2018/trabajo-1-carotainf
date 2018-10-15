@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>mariacollages</title>
+        <title>MARIA COLLAGES</title>
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -37,6 +37,7 @@
        <form name="primerformulario" id="ff" method="post" action="envio.php">
        <h1>¿QUIERES CONTACTARME?</h1>
        <p>¡Por favor, rellena el formulario!</p>
+       </form>
          <label>
            <input type="text" placeholder="Nombre" name="name" id="name" required autofocus>
          </label>
@@ -44,15 +45,16 @@
            <input type="email" placeholder="Correo" name="email" id="email" required>
          </label>
          <label>
-           <input type="asunto" placeholder="Asunto" name="asunto" id="asunto" required>
+           <input type="text" placeholder="Asunto" name="text" id="text" required>
          </label>
          <label>
            <textarea id="mensaje" name="mensaje" placeholder="Deja tu mensaje aquí" style="height:200px"></textarea>
+         </label>
+         <label>
            <input class="sendButton" type="submit" name="Submit" value="Enviar">
          </label>
-      </form>
+     </div>
     </div>
-   </div>
 
    </body>
 </html>
